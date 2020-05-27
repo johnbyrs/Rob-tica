@@ -11,8 +11,8 @@ El problema que se quiere resolver en esta práctica consiste en a partir de un 
 Para empezar el proceso se deberá encontrar los puntos carácteristicos de las imágenes capturadas, en este caso se ha usado el detector de bordes canny para extraer esa información de cada imagen capturada por cada cámara. Resultando en la siguiente imagen.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/imgcanny.jpg">
-    <img width="460" height="300" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/imgcannyr.jpg">
+  <img width="360" height="250" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/imgcanny.jpg">
+    <img width="360" height="250" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/imgcannyr.jpg">
 </p>
 
 ## Segundo paso
