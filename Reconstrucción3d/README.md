@@ -12,6 +12,7 @@ Para empezar el proceso se deberá encontrar los puntos carácteristicos de las 
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/imgcanny.jpg">
+    <img width="460" height="300" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/imgcannyr.jpg">
 </p>
 
 ## Segundo paso
