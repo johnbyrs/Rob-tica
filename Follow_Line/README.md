@@ -39,5 +39,5 @@ Una vez obtenido el error se procede a corregir el rumbo por medio de un control
   <img src="https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/PID.png">
 </p>
 
-Los valores kp, ki, kd se han obtenido a base de prueba y error, llegando a unos valores que devuelven un resultado aceptable.
+Los valores kp, ki, kd se han obtenido a base de prueba y error, llegando a unos valores que devuelven un resultado aceptable. El valor de error incial se ha puesto a 0.
 
