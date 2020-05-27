@@ -25,7 +25,7 @@ Aplicando un filtro de color a esta imagen original se consigue extraer la infor
 
 ## Segundo paso
 
-Se deberá calcular la distancia entre la posición de la línea roja y el coche(se asume que el coche siempre está en la posición central de la imagen). Esta distancia es el error de posición, que se deberá corregir para que el coche siga la línea correctamente. Como se aprecia en la siguiente imagen cuando aparece una curva la línea se desplaza y se calcula el error sobre esto.
+Se deberá calcular la distancia entre la posición de la línea roja y el coche(se asume que el coche siempre está en la posición central de la imagen). Esta distancia es el error de posición, que se deberá corregir para que el coche siga la línea correctamente. Como se aprecia en la siguiente imagen cuando aparece una curva la línea se desplaza y se calcula el error sobre esto, cuando se va en línea recta el error es 0 (o cercano) y hay poco que corregir.
 
 <p align="center">
   <img src="https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/curva.png">
