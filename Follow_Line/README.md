@@ -15,4 +15,13 @@ Aplicando un filtro de color a esta imagen original se consigue extraer la infor
 
 ![img_filtrada](https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/imagen_filtrada.png)
 
-El segundo paso será calcular la distancia entre la posición de la línea roja y el coche(se asume que el coche siempre está en la posición central de la imagen). Esta distancia es el error de posición, que se deberá corregir para que el coche siga la línea correctamente.
+El segundo paso será calcular la distancia entre la posición de la línea roja y el coche(se asume que el coche siempre está en la posición central de la imagen). Esta distancia es el error de posición, que se deberá corregir para que el coche siga la línea correctamente. Como se aprecia en la siguiente imagen cuando aparece una curva la línea se desplaza y se calcula el error sobre esto.
+![curva](https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/curva.png)
+
+Una vez obtenido el error se procede a corregir el rumbo por medio de un controlador PID, el cual recibe el error y corrige el rumbo. Se calculan los valores de PID mediante las formulas y se actualizan los valores. Los valores kp, ki, kd se han obtenido a base de prueba y error, llegando a unos valores que devuelven un resultado aceptable.
+
+![pid_formulas](https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/PID.png)
+
+
+
+
