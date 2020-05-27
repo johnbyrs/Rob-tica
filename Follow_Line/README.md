@@ -23,7 +23,7 @@ Una vez obtenido el error se procede al tercer paso que consiste en corregir el 
 ![pid_formulas](https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/PID.png)
 
 <p align="center">
-  <src="https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/PID.png">
+  <img src="https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/PID.png">
 </p>
 
 
