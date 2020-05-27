@@ -16,15 +16,21 @@ Para empezar el proceso se deberá encontrar los puntos carácteristicos de las 
 
 ## Segundo paso
 
-Una vez obtenidos los puntos característicos de cada imagen se procede a hacer una correspondencia de estos entre las imágenes obtenidas de cada cámara. Se deberá trazar la línea epipolar a cada uno de los puntos de una de las imágenes sobre la otra, el punto homólogo será uno de los que esté en esa línea epipolar, por lo que se usará la función de opencv de matchtemplate sobre los puntos de la línea para encontrar los puntos homólogos
+Una vez obtenidos los puntos característicos de cada imagen se procede a hacer una correspondencia de estos entre las imágenes obtenidas de cada cámara. Se deberá trazar la línea epipolar a cada uno de los puntos de una de las imágenes sobre la otra, el punto homólogo será uno de los que esté en esa línea epipolar.
+Para encontrar el punto exacto se usará la función de opencv de matchtemplate que se encarga de analizar la correlación entre dos espacios de imagen. De todos los puntos de la línea el que mayor valor de correlación presente será el punto homólogo.
 
 ## Tercer paso 
 
-Rectificar la imagen y transformar las coordenadas 2D de las imágenes obtenidas por la cámara a coordenadas 3D, este proceso se realiza mediante las matrices de proyección, se consigue triangular triangular la posición de cada punto.
+Una vez conseguidos todos los puntos homólogos, se deberá triangular la posición del objeto haciendo uso de esa información. Para ello se busca el punto de corte entre las proyecciones de los puntos de cada imágen. Consiguiendo así los puntos en 3D.
+
+<p align="center">
+  <img src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/epipolar.png">
+</p>
+
 
 ## Cuarto paso
 
-Una vez obtenidos los puntos en 3D solo queda pintarlos dando lugar a la siguiente imagen donde se puede ver una muestra del resultado final.
+Una vez obtenidos los puntos en 3D solo queda pintarlos dando lugar a imagenes como la siguiente donde se puede ver una muestra del resultado final.
 
 <p align="center">
   <img width="350" height="460" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/Resultados.png">
