@@ -27,7 +27,7 @@ Rectificar la imagen y transformar las coordenadas 2D de las imágenes obtenidas
 Una vez obtenidos los puntos en 3D solo queda pintarlos dando lugar a la siguiente imagen donde se puede ver una muestra del resultado final.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/Resultados.png">
+  <img width="300" height="460" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/Resultados.png">
 </p>
 
 
