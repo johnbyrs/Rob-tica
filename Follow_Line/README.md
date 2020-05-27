@@ -11,17 +11,13 @@ El coche va equipado con una cámara la cual será el sensor que se usará para 
 ## Primer paso
 
 Lo primero que hay se debe hacer para resolver el problema es leer las imágenes dadas por la cámara incorporada y encontrar la línea roja.
-Las imágenes leidas por la cámara son como la siguiente.
+Las imágenes obtenidas de la cámara son como la imagen derecha de la siguiente imagen. Aplicando un filtro de color a la imagen original se consigue extraer la información de la línea roja, resultando en la imagen derecha con la que se trabajará.
 
 <p align="center">
   <img src="https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/Fotoraw.png">
-</p>
-
-Aplicando un filtro de color a esta imagen original se consigue extraer la información de la línea roja, resultando en imágenes así.
-
-<p align="center">
   <img src="https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/imagen_filtrada.png">
 </p>
+
 
 ## Segundo paso
 
