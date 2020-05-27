@@ -29,10 +29,9 @@ Se deberá calcular la distancia entre la posición de la línea roja y el coche
 
 <p align="center">
   <img src="https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/curva.png">
-</p>
-<p align="center">
   <img src="https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/recta.png">
 </p>
+
 
 
 
