@@ -33,7 +33,9 @@ Se deberá calcular la distancia entre la posición de la línea roja y el coche
 
 ## Tercer paso
 
-Una vez obtenido el error se procede a corregir el rumbo por medio de un controlador PID, el cual recibe el error y calcula los cambios que corrigen el rumbo. Se calculan los valores de PID mediante las formulas siguientes y se actualizan los valores de velocidad y dirección. 
+Una vez obtenido el error se procede a corregir el rumbo por medio de un controlador PID, el cual recibe el error y calculará los cambios para la velocidad y dirección para mantenerse en la línea. 
+
+Se usará un controlador PID diferente para la velocidad y dirección. Se obtienen los cambios para corregir el rumbo aplicando la formula siguiente usando el error obtenido en el paso dos y se actualizan los valores de velocidad y dirección. 
 
 <p align="center">
   <img src="https://github.com/johnbyrs/Rob-tica/blob/master/Follow_Line/imgs/PID.png">
