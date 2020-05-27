@@ -8,7 +8,7 @@ El problema que se quiere resolver en esta práctica consiste en a partir de un 
 
 ## Primer paso
 
-Para empezar el proceso se deberá encontrar los puntos carácteristicos de las imágenes capturadas, en este caso se ha usado el detector de bordes canny para extraer esa información de cada imagen capturada por cada cámara. Resultando en la siguiente imagen.
+Para empezar el proceso se deberá encontrar los puntos carácteristicos de las imágenes capturadas, en este caso se ha usado el detector de bordes canny para extraer esa información de cada imagen capturada por cada cámara. Resultando en la siguientes imágenes tomadas desde la cámara izquierda y derecha respectivamente.
 
 <p align="center">
   <img width="360" height="250" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/imgcanny.jpg">
