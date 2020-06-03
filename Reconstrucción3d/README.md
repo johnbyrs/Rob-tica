@@ -37,4 +37,4 @@ Una vez obtenidos los puntos en 3D solo queda pintarlos dando lugar a imagenes c
   <img width="350" height="460" src="https://github.com/johnbyrs/Rob-tica/blob/master/Reconstrucci%C3%B3n3d/imgs/ResNew.png">
 </p>
 
-
+e
