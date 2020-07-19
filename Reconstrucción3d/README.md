@@ -19,9 +19,7 @@ Para empezar el proceso se deberá encontrar los puntos carácteristicos de las 
 
 Una vez obtenidos los puntos característicos de cada imagen se procede a hacer una correspondencia de estos entre las imágenes obtenidas de cada cámara. Se deberá trazar la línea epipolar a cada uno de los puntos de una de las imágenes sobre la otra, el punto homólogo será uno de los que esté en esa línea epipolar.
 
-Para mejorar la búsqueda de homólogos se ha usado la función bresenham, la cual genera puntos cercanos sobre una línea, en este caso la epipolar. Con esta dispersión se consigue encontrar puntos que se correlacionan mejor ya que alivia el desplazamiento de los objetos entre las dos imágenes.
-
-Por último para encontrar el punto exacto se usará la función de opencv de matchtemplate que se encarga de analizar la correlación entre dos espacios de imagen. De todos los puntos de la línea el que mayor valor de correlación presente será el punto homólogo.
+Para encontrar el punto exacto se usará la función de opencv de matchtemplate que se encarga de analizar la correlación entre dos espacios de imagen. De todos los puntos de la línea el que mayor valor de correlación presente será el punto homólogo.
 
 ## Tercer paso 
 
